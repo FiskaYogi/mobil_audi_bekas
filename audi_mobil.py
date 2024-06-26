@@ -14,7 +14,7 @@ engineSize = st.number_input('Input Engine Size')
 
 predict = ''
 
-if if st.button('Estimasi Harga'):
+if st.button('Estimasi Harga'):
 	predict = model.predict(
 		[[year, mileage, tax, mpg, engineSize]]
 		)
